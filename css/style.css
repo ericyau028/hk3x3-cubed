@@ -306,44 +306,6 @@ img { max-width: 100%; height: auto; display: block; }
   color: rgba(255,255,255,0.2);
 }
 
-/* ── Subscribe ── */
-.subscribe {
-  background: var(--navy);
-  color: var(--white);
-  text-align: center;
-  padding: 60px 0;
-}
-.subscribe h2 { font-size: 1.5rem; margin-bottom: 8px; }
-.subscribe p { color: rgba(255,255,255,0.7); margin-bottom: 24px; }
-.sub-form {
-  display: flex;
-  max-width: 450px;
-  margin: 0 auto;
-  gap: 0;
-  border-radius: var(--radius-sm);
-  overflow: hidden;
-}
-.sub-form input {
-  flex: 1;
-  border: none;
-  padding: 12px 16px;
-  font-size: 0.95rem;
-  font-family: var(--font);
-  outline: none;
-}
-.sub-form button {
-  background: var(--orange);
-  color: var(--white);
-  border: none;
-  padding: 12px 24px;
-  font-size: 0.95rem;
-  font-family: var(--font);
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.2s;
-}
-.sub-form button:hover { background: var(--orange-dark); }
-
 /* ── Footer ── */
 .footer {
   background: var(--gray-900);
